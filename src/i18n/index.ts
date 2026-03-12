@@ -4,8 +4,8 @@ import { initReactI18next } from "react-i18next"
 import enCommon from "./locales/en/common.json"
 import enAuth from "./locales/en/auth.json"
 
-import ruCommon from "./locales/ru/common.json"
-import ruAuth from "./locales/ru/auth.json"
+import deCommon from "./locales/de/common.json"
+import deAuth from "./locales/de/auth.json"
 
 i18n.use(initReactI18next).init({
 	resources: {
@@ -13,9 +13,9 @@ i18n.use(initReactI18next).init({
 			common: enCommon,
 			auth: enAuth
 		},
-		ru: {
-			common: ruCommon,
-			auth: ruAuth
+		de: {
+			common: deCommon,
+			auth: deAuth
 		}
 	},
 	lng: "en",

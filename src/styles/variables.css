@@ -1,0 +1,8 @@
+:root {
+	--color-base: #212842;
+	--color-accent: #72D7EB;
+	--color-middle: #CBCBCB;
+
+	--radius-md: 10px;
+	--transition: 0.2s ease;
+}

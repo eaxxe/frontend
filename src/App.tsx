@@ -1,10 +1,11 @@
 //import { I18nTest } from "./components/I18nTest"
-import { SignInPage } from "./pages/auth"
+import { SignUpPage, SignInPage } from "./pages/auth"
 
 const App = () => {
 	return (
 		<>
 			<SignInPage></SignInPage>
+			<SignUpPage></SignUpPage>
 		</>
 	)
 }
